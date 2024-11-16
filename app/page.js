@@ -3,8 +3,6 @@ import dynamic from "next/dynamic";
 import React, { useState } from "react";
 import DialogBox from "./components/dialog/Dialog";
 import Image from "next/image";
-import { BsBarChartFill } from "react-icons/bs";
-import { CiMedal, CiStickyNote } from "react-icons/ci";
 import { PieChart } from "react-minimal-pie-chart";
 import SideBar from "./components/sidebar/SideBar";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
