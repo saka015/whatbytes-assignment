@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.apexcharts-canvas {
+  z-index: 0 !important;
+}
